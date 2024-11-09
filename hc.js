@@ -22,7 +22,6 @@ window.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-
     function submit(){
         var guessValue = guessInput.value;
         guessValue = Number( guessValue )
@@ -47,7 +46,6 @@ window.addEventListener('DOMContentLoaded', function () {
             
         }
 
-        console.log(numbers)
 
     }
 
