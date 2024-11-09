@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
     guessInput.addEventListener('keyup', function () {
         const guessValue = guessInput.value;
-        if ( guessValue < 0 ){
+        if ( guessValue <=0 ){
             guessInput.value = 0
         }else if ( guessValue > 20 ) {
             guessInput.value = 20
